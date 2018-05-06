@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul, li, p {
+	margin:0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.solid-btn {
+	margin: 10px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 60px;
+    box-shadow: 0 0 5px 1px #1c75ff;
+    background: #0085ff;
+    color: white;
+    cursor: pointer;
+}
+
+.column-wrap {
+	padding: 10px;
+}
+
+.album-wrap {
+	display: flex;
+}
+.album-cont {
+	margin-right: 10px;
+}
+
+.fixedBottom {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+}
+
+.album-page {
+	padding:10px;
+	margin-bottom: 100px;
+}
+
+.center-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.songItem {
+    padding: 10px;
+    background: #f0f0f0;
+    margin-bottom: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.songItem.selected {
+	background: #cfcfcf;
+}
+
+.play-btn {
+	width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.play-btn .back-img {
+	width:100%;
+}
+.shade {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background: rgba(50,50,50,.5)
+}
+.play-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
