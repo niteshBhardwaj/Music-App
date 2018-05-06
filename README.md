@@ -1,5 +1,7 @@
-# run server
-# npm run server
+# Web Music App
 
-# run react
-# npm start
+<p> Start Server</p>
+`npm run start`
+
+<p> Run React</p>
+`npm start`

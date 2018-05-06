@@ -2,7 +2,6 @@ const express = require('express');
 const config = require('./config');
 const route = express();
 const albumController = require('../controllers/albumController');
-const songsController = require('../controllers/songsController');
 
 route.use(config);
 route.get('/albums', albumController.getAll);
