@@ -1,8 +1,8 @@
 # Web Music App
 
-<p> Start Node Server</p>
-npm run Server
+<h3> Start Node Server</h3>
+<p>npm run Server</p>
 
 
-<p> Run React</p>
-npm start
+<h3> Run React</h3>
+<p> npm start </p>
